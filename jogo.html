@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <title>Afromemorias</title>
+  <div class="topbar">
+	<h1>Afromemorias</h1>
+	<button onclick="resetBoard()">Jogar</button>
+	<a href="SobreOJogo.html"><button><span> Conheça o Jogo </span></button></a>
+	<a href="ConhecaOIranti.html"><button><span>Conheça o Iranti</span></button></a>
+	<a href="EntreEmContato.html"><button><span>Entre em Contato</span></button></a>
+</div>
+  <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+	
+  <section class="memory-game">
+	  
+    <div class="memory-card" id = "carolFernandes" data-autor="carolFernandes">
+      <img class="front-face" src="game-images/1.png" alt="carolFernandes" />
+      <img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-autor="carolFernandes">
+      <img class="front-face" src="game-images/1.png" alt="carolFernandes" />
+      <img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-autor="carolinaMariaDeJesus">
+      <img class="front-face" src="game-images/2.png" alt="carolinaMariaDeJesus" />
+      <img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-autor="carolinaMariaDeJesus">
+      <img class="front-face" src="game-images/2.png" alt="carolinaMariaDeJesus" />
+      <img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-autor="cidinhadaSilva">
+      <img class="front-face" src="game-images/3.png" alt="cidinhadaSilva" />
+      <img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-autor="cidinhadaSilva">
+      <img class="front-face" src="game-images/3.png" alt="cidinhadaSilva" />
+      <img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-autor="deyseCabraldeMoura">
+      <img class="front-face" src="game-images/4.png" alt="deyseCabraldeMourar" />
+      <img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-autor="deyseCabraldeMoura">
+      <img class="front-face" src="game-images/4.png" alt="deyseCabraldeMoura" />
+      <img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-autor="edimilsondeAlmeidaPereira">
+      <img class="front-face" src="game-images/5.png" alt="edimilsondeAlmeidaPereira" />
+      <img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-autor="edimilsondeAlmeidaPereira">
+      <img class="front-face" src="game-images/5.png" alt="edimilsondeAlmeidaPereira" />
+      <img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-autor="elaineMarcelina">
+      <img class="front-face" src="game-images/6.png" alt="elaineMarcelina" />
+      <img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-autor="elaineMarcelina">
+      <img class="front-face" src="game-images/6.png" alt="elaineMarcelina" />
+      <img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+    </div>
+<!-- 
+    <div class="memory-card" data-autor="elzelinaDoris">
+      <img class="front-face" src="game-images/ElzelinaDoris.jpeg" alt="elzelinaDoris" />
+      <img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+      </div>
+      <div class="memory-card" data-autor="elzelinaDoris">
+      <img class="front-face" src="game-images/ElzelinaDoris.jpeg" alt="elzelinaDoris" />
+      <img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+      </div> -->
+
+	<div class="memory-card" data-autor="geniGuimaraes">
+		<img class="front-face" src="game-images/7.png" alt="geniGuimaraes" />
+		<img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+	  </div>
+	  <div class="memory-card" data-autor="geniGuimaraes">
+		<img class="front-face" src="game-images/7.png" alt="geniGuimaraes" />
+		<img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+	  </div>
+    
+	  <div class="memory-card" data-autor="jaridArraes">
+		<img class="front-face" src="game-images/8.png" alt="jaridArraes" />
+		<img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+	  </div>
+	  <div class="memory-card" data-autor="jaridArraes">
+		<img class="front-face" src="game-images/8.png" alt="jaridArraes" />
+		<img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+	  </div>
+  
+	  <div class="memory-card" data-autor="josiasMarinhoCasadecaba">
+      <img class="front-face" src="game-images/9.png" alt="josiasMarinhoCasadecaba" />
+      <img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+      </div>
+      <div class="memory-card" data-autor="josiasMarinhoCasadecaba">
+      <img class="front-face" src="game-images/9.png" alt="josiasMarinhoCasadecaba" />
+      <img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+      </div>
+
+    <div class="memory-card" data-autor="julioEmilioBraz">
+		<img class="front-face" src="game-images/10.png" alt="julioEmilioBraz" />
+		<img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+	  </div>
+	  <div class="memory-card" data-autor="julioEmilioBraz">
+		<img class="front-face" src="game-images/10.png" alt="julioEmilioBraz" />
+		<img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+	  </div>
+
+    <div class="memory-card" data-autor="kiusamdeOliveira">
+      <img class="front-face" src="game-images/11.png" alt="kiusamdeOliveira" />
+      <img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+      </div>
+      <div class="memory-card" data-autor="kiusamdeOliveira">
+      <img class="front-face" src="game-images/11.png" alt="kiusamdeOliveira" />
+      <img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+      </div>
+
+      <div class="memory-card" data-autor="maduCosta">
+        <img class="front-face" src="game-images/12.png" alt="maduCosta" />
+        <img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+        </div>
+        <div class="memory-card" data-autor="maduCosta">
+        <img class="front-face" src="game-images/12.png" alt="maduCosta" />
+        <img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+        </div>
+
+        <div class="memory-card" data-autor="neiLopes">
+          <img class="front-face" src="game-images/13.png" alt="neiLopes" />
+          <img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+          </div>
+          <div class="memory-card" data-autor="neiLopes">
+          <img class="front-face" src="game-images/13.png" alt="neiLopes" />
+          <img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+          </div>
+
+          <div class="memory-card" data-autor="nilmaLinoGomes">
+            <img class="front-face" src="game-images/14.png" alt="nilmaLinoGomes" />
+            <img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+            </div>
+            <div class="memory-card" data-autor="nilmaLinoGomes">
+            <img class="front-face" src="game-images/14.png" alt="nilmaLinoGomes" />
+            <img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+            </div>
+
+            <!-- <div class="memory-card" data-autor="olegarioAlfredodaSilva">
+              <img class="front-face" src="game-images/15.png" alt="olegarioAlfredodaSilva" />
+              <img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+              </div>
+              <div class="memory-card" data-autor="olegarioAlfredodaSilva">
+              <img class="front-face" src="game-images/15.png" alt="olegarioAlfredodaSilva" />
+              <img class="back-face" src="game-images/interrogacao.png" alt="JS Badge" />
+              </div> -->
+  </section>
+
+  <script src="game-logic.js"></script>
+</body>
+</html>
