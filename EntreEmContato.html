@@ -2,17 +2,23 @@
     <meta charset="UTF-8">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <title>Afromemorias</title>
+    <img class="center" src="game-images/afromemoriaslogo.png">
     <div class="topbar">
-      <h1>Afromemorias</h1>
       <a href="index.html"><button><span> Jogar </span></button></a>
       <a href="SobreOJogo.html"><button><span> Conheça o Jogo </span></button></a>
       <a href="ConhecaOIranti.html"><button><span>Conheça o Iranti</span></button></a>
       <a href="EntreEmContato.html"><button><span>Entre em Contato</span></button></a>
   </div>
     <link rel="stylesheet" href="css/game.css">
+    <link rel="stylesheet" href="css/equipe.css">
   </head>
 <header>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </header>
 <body>
   <div class="box">
@@ -21,96 +27,85 @@
 <section class="mb-4">
 
   <!--Section heading-->
-  <h2 class="h1-responsive font-weight-bold text-center my-4">Entre em contato</h2>
-  <!--Section description-->
-  <p class="text-center w-responsive mx-auto mb-5">Deixe um recado</p>
 
-  <div class="row">
-
-      <!--Grid column-->
-      <div class="col-md-9 mb-md-0 mb-5">
-          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-              <!--Grid row-->
-              <div class="row">
-
-                  <!--Grid column-->
-                  <div class="col-md-6">
-                      <div class="md-form mb-0">
-                          <input type="text" id="name" name="name" class="form-control">
-                          <label for="name" class="">Nome</label>
-                      </div>
-                  </div>
-                  <!--Grid column-->
-
-                  <!--Grid column-->
-                  <div class="col-md-6">
-                      <div class="md-form mb-0">
-                          <input type="text" id="email" name="email" class="form-control">
-                          <label for="email" class="">E-mail</label>
-                      </div>
-                  </div>
-                  <!--Grid column-->
-
-              </div>
-              <!--Grid row-->
-
-              <!--Grid row-->
-              <div class="row">
-                  <div class="col-md-12">
-                      <div class="md-form mb-0">
-                          <input type="text" id="subject" name="subject" class="form-control">
-                          <label for="subject" class="">Assunto</label>
-                      </div>
-                  </div>
-              </div>
-              <!--Grid row-->
-
-              <!--Grid row-->
-              <div class="row">
-
-                  <!--Grid column-->
-                  <div class="col-md-12">
-
-                      <div class="md-form">
-                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                          <label for="message">Mensagem</label>
-                      </div>
-
-                  </div>
-              </div>
-              <!--Grid row-->
-
-          </form>
-
-          <div class="text-center text-md-left">
-              <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+ 
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Entre em contato</h2>
+  
+      <div class="row">
+        <div class="col">
+             <h2 style="text-align: center;"> Iranti </h2>
+            <div class="col-lg-12 col-md-12 col-12 mt-4 pt-2">
+                <div class="team text-center rounded p-3 py-4">
+                    <a href="https://www.instagram.com/irantiserafrica/"><img src="game-images/instagram.png" style="height: 150;" alt=""></a>
+                    <div class="content mt-3">
+                        <h4 class="title mb-0">Instagram</h4>
+                        <small class="text-muted">@irantiserafrica</small>
+                        
+                    </div>
+                </div>
+            </div><!--end col-->
+            <div class="col-lg-12 col-md-12 col-12 mt-4 pt-2">
+                <div class="team text-center rounded p-3 py-4">
+                    <a href="mailto:projetoserafrica@gmail.com?" ><img src="game-images/gmail.png" style="height: 100;" alt=""></a>
+                    <div class="content mt-3">
+                        <h4 class="title mb-0">E-mail</h4>
+                        <small class="text-muted">projetoserafrica@gmail.com</small>
+                        
+                    </div>
+                </div>
+            </div><!--end col-->
+        </div>
+            <style>
+                .vl {
+                  border-left: 6px solid #c91f0f;
+                  height: 800px;
+                }
+                </style>
+                <div class="vl"></div>
+            <div class="col">
+                <h2 style="text-align: center;"> Equipe </h2>
+                 <div class="row">
+            <div class="col-lg-6 col-md-12 col-12 mt-4 pt-2">
+                <div class="team text-center rounded p-3 py-4">
+                    <img src="game-images/magna.jpeg" class="img-fluid avatar avatar-medium shadow rounded-pill" alt="">
+                    <div class="content mt-3">
+                        <h4 class="title mb-0">Magna Oliveira</h4>
+                        <small class="text-muted">Founder</small>
+                        
+                    </div>
+                </div>
+            </div><!--end col-->
+            
+            <div class="col-lg-6 col-md-12 col-12 mt-4 pt-2">
+                <div class="team text-center rounded p-3 py-4">
+                    <img src="" class="img-fluid avatar avatar-medium shadow rounded-pill" alt="">
+                    <div class="content mt-3">
+                        <h4 class="title mb-0">Mayra</h4>
+                        <small class="text-muted">C.E.O.</small>
+                        
+                    </div>
+                </div>
+            </div><!--end col-->
+            
+            <div class="col-lg-6 col-md-12 col-12 mt-4 pt-2">
+                <div class="team text-center rounded p-3 py-4">
+                    <a href="https://www.instagram.com/bebelicha/"><img src="game-images/isabela.jpeg" class="img-fluid avatar avatar-medium shadow rounded-pill" alt=""></a>
+                    <div class="content mt-3">
+                        <h4 class="title mb-0">Isabela Fernandes</h4>
+                        <small class="text-muted">Desenvolvedora Web</small>
+                        
+                    </div>
+                </div>
+            </div><!--end col-->
+            
+            
+        </div><!--end row-->
+    </div>
+            </div>
           </div>
-          <div class="status"></div>
+      </section>
       </div>
-      <!--Grid column-->
 
-      <!--Grid column-->
-      <div class="col-md-3 text-center">
-          <ul class="list-unstyled mb-0">
-              <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                  <p>Redes sociais</p>
-              </li>
-
-              <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                  <p>email</p>
-              </li>
-
-          </ul>
-      </div>
-      <!--Grid column-->
-
-  </div>
-
-</section>
-<!--Section: Contact v.2-->
-  </div>
-  </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
