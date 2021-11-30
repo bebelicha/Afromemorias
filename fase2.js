@@ -93,7 +93,7 @@ else if(firstCard.dataset.autor == "josiasMarinhoCasadecaba"){
   Swal.fire({
     title: "Josias Marinho Casadecaba",
     html: '<p style="text-align: left;">' + josiasMarinhoCasadecaba + '</p>',
-    imageUrl: 'game-images/Livros/josias.jpg',
+    imageUrl: 'game-images/Livros/josias.png',
     confirmButtonColor: "#DD6B55",
     imageHeight: 250,
    
